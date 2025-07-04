@@ -156,7 +156,11 @@
       }
 
       alert(`Account created!\nEmail: ${email}\nRoblox Username: ${robloxUsername}`);
+
       form.reset();
+
+      // Redirect to dashboard.html after signup
+      window.location.href = "dashboard.html";
     });
   </script>
 </body>
